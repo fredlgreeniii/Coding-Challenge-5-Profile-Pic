@@ -1,0 +1,66 @@
+/*
+  In this example we will create a simple profile-icon. This is a neat
+  UI widget that will allow us to explore positioning, particularly     relative and absolute positioning.
+*/
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+
+}
+
+/* Your CSS Here 👇 */
+
+.profile {
+  background-color: rgb(248, 242, 238);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+  /*
+  background-image: url(../img/IMG_2606.jpeg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+ 
+}
+*/
+.profile-pic {
+  background-image: url(../img/IMG_2606.jpeg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-top: 5px;  
+}
+
+.profile__status--active {
+  background: rgb(118, 196, 1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 200px;
+  margin-bottom: 0px;
+}
+ 
+
+
+
+
+
